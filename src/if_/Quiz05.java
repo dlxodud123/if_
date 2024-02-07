@@ -2,16 +2,16 @@ package if_;
 
 import java.util.Scanner;
 
-public class Quiz5 {
+public class Quiz05 {
 	public static void main(String[] args) {
 		int n1, n2;
 		String h1, h2;
 		Scanner sc = new Scanner(System.in);
-		System.out.print("첫번쨰 이름 입력, 주사위 1~6자리중 선택 : ");
+		System.out.print("첫번쨰 이름 입력, 주사위 1~6자리중 입력 : ");
 		h1 = sc.next();
 		n1 = sc.nextInt();
 		
-		System.out.print("두번쨰 이름 입력, 주사위 1~6자리중 선택 : ");
+		System.out.print("두번쨰 이름 입력, 주사위 1~6자리중 입력 : ");
 		h2 = sc.next();
 		n2 = sc.nextInt();
 

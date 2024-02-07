@@ -1,6 +1,6 @@
 package if_;
 
-public class Quiz3 {
+public class Quiz03 {
 	public static void main(String[] args) {
 		int n1 = 1, n2 = 2, n3 = 3;
 
