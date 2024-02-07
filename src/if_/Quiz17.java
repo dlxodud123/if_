@@ -10,9 +10,9 @@ public class Quiz17 {
 		age = sc.nextInt();
 		money = sc.nextInt();
 		
-		if (((age >= 10)&&(age <=15))&&(money == 13000)) {
+		if (((age >= 10)&&(age <=15))&&(money >= 13000)) {
 			System.out.println("어린이표 구매 가능");
-		}else if ((age >= 19) && (money == 15000)) {
+		}else if ((age >= 19) && (money >= 15000)) {
 			System.out.println("성인표 구매 가능");
 		}else {
 			System.out.println("구매가능 상품 없음");
