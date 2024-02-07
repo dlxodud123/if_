@@ -13,7 +13,9 @@ public class Quiz3 {
 				System.out.println("두번째 큰수 : " + n3);
 				System.out.println("세번째 큰수 : " + n2);
 			}
-		}else if ((n2 > n1) && (n2 > n3)) {
+		}
+		
+		else if ((n2 > n1) && (n2 > n3)) {
 			System.out.println("가장 큰수 : " + n2);
 			if (n1 > n3) {
 				System.out.println("두번째 큰수 : " + n1);
@@ -22,7 +24,9 @@ public class Quiz3 {
 				System.out.println("두번째 큰수 : " + n3);
 				System.out.println("세번째 큰수 : " + n1);
 			}
-		}else {
+		}
+		
+		else {
 			System.out.println("가장 큰수 : " + n3);
 			if (n2 > n1) {
 				System.out.println("두번째 큰수 : " + n2);
