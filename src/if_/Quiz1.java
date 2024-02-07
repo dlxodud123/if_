@@ -11,7 +11,7 @@ public class Quiz1 {
 		b = sc.nextInt();
 		if (a > b) {
 			System.out.println(a);
-		}if (a < b) {
+		}else{
 			System.out.println(b);
 		}
 	}
